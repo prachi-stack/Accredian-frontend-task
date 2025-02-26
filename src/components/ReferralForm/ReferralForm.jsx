@@ -41,7 +41,7 @@ export default function ReferralForm({onClose}) {
 
   const handleSubmit = async () => {
     try {
-      const response = await fetch("http://localhost:5000/api/referral", {
+      const response = await fetch("https://accredian-backend-task-90kg.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
